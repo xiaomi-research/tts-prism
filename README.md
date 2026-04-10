@@ -1,26 +1,40 @@
-# TTS-PRISM: A Perceptual Reasoning and Interpretable Speech Model for Fine-Grained Diagnosis
+<h1 align="center">TTS-PRISM</h1>
+<h3 align="center">A Perceptual Reasoning and Interpretable Speech Model for Fine-Grained Diagnosis</h3>
 
-| [🤗 HuggingFace](#-huggingface-link-placeholder) | [📄 Paper](#-paper-link-placeholder) |
+<p align="center">
+  <a href="#-huggingface-link-placeholder">🤗 HuggingFace</a> |
+  <a href="#-paper-link-placeholder">📄 Paper</a>
+</p>
 
-## Introduction
+---
 
-While generative text-to-speech (TTS) models approach human-level quality, monolithic metrics fail to diagnose fine-grained acoustic artifacts or explain perceptual collapse. To address this, we propose TTS-PRISM, a multi-dimensional diagnostic framework for Mandarin. First, we establish a 12-dimensional schema spanning stability to advanced expressiveness. Second, we design a targeted synthesis pipeline with adversarial perturbations and expert anchors to build a high-quality diagnostic dataset. Third, schema-driven instruction tuning embeds explicit scoring criteria and reasoning into an efficient end-to-end model. Experiments on a 1,600-sample Gold Test Set show TTS-PRISM outperforms generalist models in human alignment. Profiling six TTS paradigms establishes intuitive diagnostic flags that reveal fine-grained capability differences.
+## 📖 Introduction
 
-## Architecture Overview
+While generative text-to-speech (TTS) models approach human-level quality, monolithic metrics fail to diagnose fine-grained acoustic artifacts or explain perceptual collapse. To address this, we propose **TTS-PRISM**, a multi-dimensional diagnostic framework for Mandarin. 
 
-![Architecture Diagram](arch_diagram.png)
+First, we establish a 12-dimensional schema spanning stability to advanced expressiveness. Second, we design a targeted synthesis pipeline with adversarial perturbations and expert anchors to build a high-quality diagnostic dataset. Third, schema-driven instruction tuning embeds explicit scoring criteria and reasoning into an efficient end-to-end model. Experiments on a 1,600-sample Gold Test Set show TTS-PRISM outperforms generalist models in human alignment. Profiling six TTS paradigms establishes intuitive diagnostic flags that reveal fine-grained capability differences.
 
-## Model Download
+## 🏗 Architecture Overview
+
+<div align="center">
+  <img src="arch_diagram.png" width="70%" alt="TTS-PRISM Architecture Diagram">
+  <p><em>Figure 1: Overall architecture of the TTS-PRISM framework.</em></p>
+</div>
+
+## 📥 Model Download
 
 | Models | 🤗 Hugging Face |
 | :--- | :--- |
-| MiMo-Audio-Tokenizer | [XiaomiMiMo/MiMo-Audio-Tokenizer](https://huggingface.co/XiaomiMiMo/MiMo-Audio-Tokenizer) |
-| TTS-PRISM-7B | [[待定：你的模型权重 HuggingFace 链接]](#) |
+| **MiMo-Audio-Tokenizer** | [XiaomiMiMo/MiMo-Audio-Tokenizer](https://huggingface.co/XiaomiMiMo/MiMo-Audio-Tokenizer) |
+| **TTS-PRISM-7B** | [[待定：你的模型权重 HuggingFace 链接]](#) |
 
 ```bash
 pip install huggingface-hub
 
+# Download the Tokenizer
 hf download XiaomiMiMo/MiMo-Audio-Tokenizer --local-dir ./models/MiMo-Audio-Tokenizer
+
+# Download the TTS-PRISM weights
 hf download [待定：你的 HF 仓库 ID] --local-dir [待定：你的本地保存路径]
 ```
 
