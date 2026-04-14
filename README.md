@@ -69,7 +69,7 @@ pip install flash-attn==2.7.4.post1
 
 > **Note on flash-attn:**
 > If the compilation of `flash-attn` takes too long on your machine, you can download the precompiled wheel and install it manually:
-> * [Download Precompiled Wheel](#-placeholder-for-wheel-link) *(Please update this link if you plan to host the wheel)*
+> * [Download Precompiled Wheel](#-placeholder-for-wheel-link) *
 > 
 > ```bash
 > pip install /path/to/flash_attn-2.7.4.post1+cu12torch2.6cxx11abiFALSE-cp312-cp312-linux_x86_64.whl
