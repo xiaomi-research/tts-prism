@@ -42,7 +42,7 @@ We strongly recommend using the new `hf` CLI for fast, resumable downloads:
 pip install -U "huggingface_hub[cli]"
 
 # Download the Tokenizer
-hf download XiaomiMiMo/MiMo-Audio-Tokenizer --local-dir ./models/MiMo-Audio-Tokenizer
+hf download XiaomiMiMo/MiMo-Audio-Tokenizer --local-dir ./checkpoints/MiMo-Audio-Tokenizer
 
 # Download the TTS-PRISM-7B weights
 hf download xiaomi-research/TTS-PRISM-7B --local-dir ./checkpoints/TTS-PRISM-7B
@@ -61,7 +61,7 @@ Spin up the inference diagnostic pipeline in minutes.
 Clone the repository and install the dependencies:
 
 ```bash
-git clone [https://github.com/xiaomi-research/tts-prism.git]
+git clone https://github.com/xiaomi-research/tts-prism.git
 cd tts-prism
 pip install -r requirements.txt
 pip install flash-attn==2.7.4.post1
