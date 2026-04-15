@@ -45,7 +45,7 @@ pip install -U "huggingface_hub[cli]"
 hf download XiaomiMiMo/MiMo-Audio-Tokenizer --local-dir ./models/MiMo-Audio-Tokenizer
 
 # Download the TTS-PRISM-7B weights
-hf download xiaomi-research/TTS-PRISM-7B --local-dir ./models/TTS-PRISM-7B
+hf download xiaomi-research/TTS-PRISM-7B --local-dir ./checkpoints/TTS-PRISM-7B
 ```
 
 ## 🚀 Getting Started
@@ -61,7 +61,7 @@ Spin up the inference diagnostic pipeline in minutes.
 Clone the repository and install the dependencies:
 
 ```bash
-git clone [https://github.com/xiaomi-research/tts-prism.git](https://github.com/xiaomi-research/tts-prism.git)
+git clone [https://github.com/xiaomi-research/tts-prism.git]
 cd tts-prism
 pip install -r requirements.txt
 pip install flash-attn==2.7.4.post1
@@ -77,7 +77,7 @@ pip install flash-attn==2.7.4.post1
 
 ### 2. Running Inference
 
-To diagnose an audio file using TTS-PRISM, run the single-pass inference script. *(Please ensure you have modified the paths in the script if your models are not downloaded to `./models/`)*.
+To diagnose an audio file using TTS-PRISM, run the single-pass inference script. *(Please ensure you have modified the paths in the script if your models are not downloaded to `./checkpoints/`)*.
 
 ```bash
 python inference_diagnostic.py
