@@ -2,7 +2,7 @@
 <h3 align="center">A Perceptual Reasoning and Interpretable Speech Model for Fine-Grained Diagnosis</h3>
 
 <p align="center">
-  <a href="#-paper-link-placeholder"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg" alt="arXiv"></a>
+  <a href="https://arxiv.org/abs/2604.22225"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg" alt="arXiv"></a>
   <a href="https://huggingface.co/xiaomi-research/TTS-PRISM-7B"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Model-goldenrod" alt="Hugging Face"></a>
   <a href="https://github.com/xiaomi-research/tts-prism/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-007EC6.svg" alt="License"></a>
 </p>
@@ -95,8 +95,8 @@ If you find our work helpful, please cite our paper:
 ```bibtex
 @article{wang2026ttsprism,
   title={TTS-PRISM: A Perceptual Reasoning and Interpretable Speech Model for Fine-Grained Diagnosis},
-  author={Wang, Xi and Wang, Jie and Song, Xingchen and Song, Baijun and Shao, Jiahe and Wu, Di and Meng, Meng and Luan, Jian and Wu, Zhiyong},
-  journal={arXiv preprint arXiv:待定编号},
+  author={Wang, Xi and Wang, Jie and Song, Xingchen and Song, Baijun and Xie, Jingran and Shao, Jiahe and Lin, Zijian and Wu, Di and Meng, Meng and Luan, Jian and Wu, Zhiyong},
+  journal={arXiv preprint arXiv:2604.22225},
   year={2026}
 }
 ```
